@@ -1,0 +1,133 @@
+
+
+
+
+/*..........Contact Form ...........*/
+    
+    body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background: radial-gradient(#fff,#ffd6d6);
+        background-size: cover;
+        background-position: center;
+        font-size: sans-serif;
+    }
+
+.contact-title
+{
+     margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transform: all 4s ease-in-out;
+    
+}
+.contact-title h1{
+      font-size: 32px;
+    line-height: 10px;    
+}
+
+.contact-title h2{
+      font-size: 16px;
+    
+    
+}
+
+forrm
+{
+      margin-top: 50px;
+    transition: all 4s ease-in-out;
+     
+}
+
+.form-control
+{
+     width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: aqua;
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+    
+    
+}
+
+input
+{
+    height: 45px;
+       
+}
+
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin: top;
+}
+
+form .submit:hover
+{
+    background-color: #f44336;
+    cursor: pointer;
+    
+}
+
+/*--------- media query for less than 600 screen size -------*/
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26p;
+        line-height: 32px;
+    }
+    
+    .cart-info p{
+        display: none;
+    }
+    
+  /*--------- media query for menu -------*/
+
+@media only screen and (max-width: 800px){
+    
+    nav ul{
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
